@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MesAnnonces</string>
+    <string name="prixAnnonce">2 €</string>
 </resources>
