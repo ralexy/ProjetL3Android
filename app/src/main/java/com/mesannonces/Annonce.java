@@ -10,14 +10,14 @@ public class Annonce {
     private List<String> images;
     private Date dateAnnonce;
 
-    public Annonce(int id, int prix, String titre, String description, String pseudo, String emailContact, String telConctact, String ville, String cp, List<String> images, Date dateAnnonce) {
+    public Annonce(int id, int prix, String titre, String description, String pseudo, String emailContact, String telContact, String ville, String cp, List<String> images, Date dateAnnonce) {
         this.id = id;
         this.prix = prix;
         this.titre = titre;
         this.description = description;
         this.pseudo = pseudo;
         this.emailContact = emailContact;
-        this.telConctact = telConctact;
+        this.telConctact = telContact;
         this.ville = ville;
         this.cp = cp;
         this.images = images;
