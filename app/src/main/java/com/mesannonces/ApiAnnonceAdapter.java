@@ -43,6 +43,10 @@ public class ApiAnnonceAdapter {
         return result;
     }
 
+
+    // Le problème est ici, j'ai créé ce bout de code mais ça ne semble pas marcher, je n'ai pas encore la solution !
+
+
     /*@ToJson
     void ToJson(JsonWriter writer, Class value) {
         try {
