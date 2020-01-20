@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">MesAnnonces</string>
     <string name="prixAnnonce">2 €</string>
+    <string name="mon_profil">Mon Profil</string>
+    <string name="lister_annonce">Lister Annonce</string>
+    <string name="d_poser_annonce">Déposer Annonce</string>
+    <string name="voir_annonce">Voir Annonce</string>
 </resources>

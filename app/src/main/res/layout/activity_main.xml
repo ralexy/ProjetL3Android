@@ -7,10 +7,10 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/buttonVoir"
+        android:id="@+id/buttonVoirAnnonce"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
-        android:text="Voir Annonce"
+        android:text="@string/voir_annonce"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -19,16 +19,16 @@
         android:id="@+id/ButtonDeposer"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Déposer Annonce"
-        app:layout_constraintEnd_toEndOf="@+id/buttonVoir"
-        app:layout_constraintStart_toStartOf="@+id/buttonVoir"
-        app:layout_constraintTop_toBottomOf="@+id/buttonVoir" />
+        android:text="@string/d_poser_annonce"
+        app:layout_constraintEnd_toEndOf="@+id/buttonVoirAnnonce"
+        app:layout_constraintStart_toStartOf="@+id/buttonVoirAnnonce"
+        app:layout_constraintTop_toBottomOf="@+id/buttonVoirAnnonce" />
 
     <Button
         android:id="@+id/buttonLister"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Lister Annonce"
+        android:text="@string/lister_annonce"
         app:layout_constraintEnd_toEndOf="@+id/ButtonDeposer"
         app:layout_constraintStart_toStartOf="@+id/ButtonDeposer"
         app:layout_constraintTop_toBottomOf="@+id/ButtonDeposer" />
@@ -37,7 +37,7 @@
         android:id="@+id/buttonProfil"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Mon Profil"
+        android:text="@string/mon_profil"
         app:layout_constraintEnd_toEndOf="@+id/buttonLister"
         app:layout_constraintStart_toStartOf="@+id/buttonLister"
         app:layout_constraintTop_toBottomOf="@+id/buttonLister" />

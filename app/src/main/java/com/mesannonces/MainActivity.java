@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button boutonProfil = (Button) findViewById(R.id.buttonProfil);
+        Button boutonVoirAnnonce = (Button) findViewById(R.id.buttonVoirAnnonce);
 
         boutonProfil.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -23,11 +24,20 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, AnnonceView.class);
                 //intent.putExtra("testText", "Hello world!");
 
-
                 startActivity(intent);
 
                 Toast toast = Toast.makeText(MainActivity.this, "Click", Toast.LENGTH_SHORT);
                 toast.show();
+            }
+        });
+
+        boutonVoirAnnonce.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, AnnonceView.class);
+                //intent.putExtra("testText", "Hello world!");
+
+                startActivity(intent);
             }
         });
 
